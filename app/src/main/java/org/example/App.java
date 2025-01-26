@@ -51,7 +51,7 @@ public class App {
       int numberInput = (int) (Math.random() * 5);
       int powerInput = (int) (Math.random() * 5);
       System.out.println("number input:" + numberInput + "\tpower input:" + powerInput);
-      System.out.println("these are the created methods which should match eachother");
+      System.out.println("these are the created methods which should match each other");
       System.out.println(app.naivePower(numberInput, powerInput));
       System.out.println(app.unoptimizedDCPower(numberInput, powerInput));
       System.out.println(app.optimizedDCPower(numberInput, powerInput) +"\n");
